@@ -3,7 +3,6 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\mahasiswa;
 class wali extends Model
 {
           protected $table = 'walis';

@@ -50,6 +50,11 @@ $this->command->info('Data mahasiswa telah diisi!');
 			'nama'  => 'Sultan',
 			'alamat'=>'Bojong Banjir',
 			'id_mahasiswa' => $adit->id));
+
+						wali::create(array(
+			'nama'  => 'ale',
+			'alamat'=>'Gempa',
+			'id_mahasiswa' => $jarwo->id));
 						$this->command->info('Data wali telah diisi!');
 
 						$ips=mata_kuliah::create(array('nama_matkul'=>'Ilmu Pengetahuan Sosial','kkm'=>'98'));

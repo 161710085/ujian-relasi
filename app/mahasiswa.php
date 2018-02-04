@@ -14,7 +14,7 @@ class mahasiswa extends Model
 	protected $fillable = array('nama','nis','id_dosen','id_jurusan');
 
 	public function wali() {
-		return $this->hasOne('App\wali', 'id_mahasiswas');
+		return $this->hasOne('App\wali', 'id_mahasiswa');
 }
 	public function dosen() {
 		return $this->belongsTo('App\dosen', 'id_dosen');

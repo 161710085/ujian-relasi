@@ -11,6 +11,6 @@ class jurusan extends Model
 	protected $fillable = array('nama');
 
 	public function mahasiswa() {
-		return $this->hasOne('App\mahasiswa', 'id_jurusan');
+		return $this->hasMany('App\mahasiswa', 'id_jurusan');
 	}
 }
